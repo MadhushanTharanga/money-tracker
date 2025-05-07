@@ -42,7 +42,13 @@
         margin: 10px 10px;
         padding: 0 30px;
         color: rgb(230, 230, 230);
+        font-size: 16px;
     }
+    ::placeholder {
+        color: #c4bebe;
+        font-size: 13px;
+        font-style: italic;
+      }
 }
 .discription{
     width: 100%;
@@ -60,12 +66,46 @@
         padding: 0 30px;
         color: rgb(230, 230, 230);
     }
+    ::placeholder {
+        color: #c4bebe;
+        font-size: 13px;
+        font-style: italic;
+      }
 }
 button{
     width: 820px;
-    background-color: rgb(151, 54, 54);
+    background-color: rgb(28, 115, 155);
     height: 50px;
     border-radius: 10px;
     margin: 10px;
     border: none;
+    font-size: 16px;
+    color: #c4bebe;
+}
+.transactions{
+    padding-top: 30px;
+    width: 100%;
+    color: #c4bebe;
+    padding: 10px 40px;
+}
+.line1{
+    display:flex ;
+    justify-content: space-between;
+   
+}
+.desc1{
+    font-size: 24px;
+}
+.money1{
+    color: red;
+}
+.money2{
+    color: rgb(15, 144, 114);
+}
+.desc2{
+    font-size: 14px;
+}
+.line2{
+    display:flex ;
+    justify-content: space-between;
 }
